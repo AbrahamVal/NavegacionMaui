@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavegacionMaui.Views.InformacionPage"
+             Title="InformacionPage">
+    
+    <VerticalStackLayout Padding="24" Spacing="20">
+        <Label Text="Llegaste a la segunda pagina" FontSize="26" FontAttributes="Bold"/>
+        <Label Text="Esta pantalla se abrio mediante el Shell" FontSize="18"/>
+
+        <!--este boton regresa a la pagina anterior-->
+        <Button Text="Regresar" Clicked="OnRegresarCliked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
